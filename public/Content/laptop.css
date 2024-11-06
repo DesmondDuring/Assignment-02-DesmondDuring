@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@media only screen and (min-width : 961px) 
+{
+    /*
+        color palette:
+        0,0,0
+        20,33,61
+        252,163,17
+        229,229,229
+        255,255,255
+    */
+
+    body
+    {
+        
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: linear-gradient(to bottom left, rgb(20, 60, 153) 50%, rgb(130,130,183) 100%);
+        background-color: rgb(60,99,183);
+        color: rgb(212, 225, 255);
+    }
+
+    #container
+    {
+    
+        left: 100px;
+        top:0;
+        height: 200px;
+        padding: 10px 10px;
+        background: linear-gradient(to left, rgb(60,99,183) 50%,rgb(20, 60, 153) 100%);
+
+    }
+
+    #container h1,#container p
+    {
+        margin-left: 800px;
+    }
+    
+    .header
+    {
+        top: 0;
+        /*left: 0;*/
+        position: fixed;
+        width: 100%;
+        padding: 20px 20px;
+        background-color: rgb(10,22,40);
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .title
+    {
+        transform: translateX(50px);
+        font-size: large;
+        color: rgb(212, 225, 255);
+    }
+
+    .navBar
+    {
+        transform: translateX(-50px);
+    }
+
+    .navBar a
+    {
+        color: rgb(212, 225, 255);
+        text-decoration: none;
+    }
+
+    .navBar a:hover
+    {
+        color: rgb(252,163,17);
+        text-decoration: none;
+    }
+
+
+    video
+    {
+        width: 500px;
+        padding: 12px;
+        margin: 12px;
+
+    }
+    /*
+    .portrait
+    {
+        transform: translateX(-450px);
+        height: 412px;
+        width: 412px;
+        margin: auto;
+    }
+    */
+   
+    .main_container
+    {
+        margin-top: 100px;
+        margin-left:50px;
+        margin-right:50px;
+    }
+    .contact
+    {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .sect2
+    {
+        transform: translateX(400px);
+    }
+    
+    .footer
+    {
+        margin: 0;
+        color: rgb(212, 225, 255);
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 20px;
+        background-color: rgb(10,22,40);
+    }
+    
+    .jumbotron
+    {
+        color:rgb(212, 225, 255);
+    }
+
+}

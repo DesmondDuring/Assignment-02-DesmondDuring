@@ -1,0 +1,34 @@
+<%- include partials/header.ejs%>
+<%- include partials/main_nav.ejs%>
+
+    <!--Main Content-->
+    <main>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4"><%= title %></h1>
+          <% if (title=="Desmond During\'s Portfolio") { %>
+            <p class="lead">This is my portfolio, You can learn more about me below!</p>
+          <% } else { %>
+            <p class="lead">This is the <%= title %> Page.</p>
+          <% } %>
+        </div>
+      </div>
+    </main>
+
+    <!--A1 Wrapper Code-->
+    <% if (title=="Desmond During\'s Portfolio") {%><%- include partials/all.ejs%><%}%>
+    <% if (title=="About Me") {%><%- include partials/aboutme.ejs%><%}%>
+    <% if (title=="Projects") {%><%- include partials/projects.ejs%><%}%>
+    <% if (title=="Contact Me") {%><%- include partials/contactme.ejs%><%}%>
+
+<%- include partials/footer.ejs%>
+
+    <!--Scripts-->
+    <script src = "/Scripts/app.js"></script>
+    <script src = "/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src = "/jqurey/dist/jqurey.min.js"></script>
+    <script src = "/@fortawesome/fontawesome-free/js/all.min.js"></script>
+
+
+  </body>
+</html>

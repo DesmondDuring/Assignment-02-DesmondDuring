@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@media only screen and (max-width : 480px) 
+{
+    body
+    {
+        
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: linear-gradient(to bottom left, rgb(20, 60, 153) 50%, rgb(130,130,183) 100%);
+        background-color: rgb(60,99,183);
+        color: rgb(212, 225, 255);
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    
+    #wrapper {
+        width: 100%;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: DarkGrey;
+    }
+    #container
+    {
+        transform: translateY(48px);
+        top:0;
+        width: 500px;
+        height: 200px;
+        background: linear-gradient(to bottom, rgb(60,99,183) 50%,rgb(20, 60, 153) 100%);
+    }
+    .title
+    {
+        transform: translateX(300px);
+        color: white;
+        font-size: larger;
+    }
+    .header
+    {
+        top: 0;
+        /*left: 0;*/
+        position: fixed;
+        width: 100%;
+        padding: 20px 20px;
+        background-color: rgb(10,22,40);
+    }
+    .navBar
+    {
+        transform: translateX(40px);
+    }
+    .navBar a
+    {
+        color:rgb(252,163,17);
+        text-decoration: none;
+        font-size: larger;
+        
+    }
+    
+    
+    
+    .main_container
+    {
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .footer
+    {
+        margin: 0;
+        color: white;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 20px;
+        background-color: rgb(10,22,40);
+    }
+    .clear {
+        clear: both;
+    }
+}
